@@ -12,12 +12,5 @@ class Footman < Unit
     # Also also give code outside this class access to these variables (via attr_reader, attr_writer or attr_accessor)
   end
 
-  def attack!(enemy)
-    enemy.damage(10)
-    
-  end
 
-  def damage(amount)
-    @health_points -= amount
-  end
 end
